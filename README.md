@@ -21,13 +21,15 @@ Small Dungeons and Tiny Dragons is a text-based adventure game inspired by class
 
 Small Dungeons and Tiny Dragons is built using the following technologies:
 
-HTML: Provides the structure and layout for the game interface.<br />
-CSS: Styles the HTML elements, utilizing:<br />
-Flexbox: For flexible layout design and alignment of elements.<br />
-Animations and Keyframes: Implements animated effects for enhanced user experience.<br />
-Media Queries: Enables responsive design to adapt the layout for different screen sizes.<br />
-JavaScript: Powers the game logic and interactivity, allowing players to make choices and progress through the adventure.<br />
-GitHub: Hosts the project repository and facilitates collaboration among contributors.
+**HTML:** Provides the structure and layout for the game interface.<br />
+**CSS:** Styles the HTML elements, utilizing:<br />
+**Flexbox:** For flexible layout design and alignment of elements.<br />
+**Animations and Keyframes:** Implements animated effects for enhanced user experience.<br />
+**Media Queries:** Enables responsive design to adapt the layout for different screen sizes.<br />
+**Tooltips:** Enhances user interaction with informative tooltips on hover.<br />
+**JavaScript:** Powers the game logic and interactivity, allowing players to make choices and progress through the adventure.<br />
+**Drag and Drop:** Implements drag and drop functionality for certain game elements.<br />
+**GitHub:** Hosts the project repository and facilitates collaboration among contributors.
 
 **CONTRIBUTING**
 
