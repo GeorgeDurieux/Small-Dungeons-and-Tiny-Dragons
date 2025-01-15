@@ -59,7 +59,7 @@ export function showModal(textNodeId) {
 
   switch (textNodeId) {
     case 2:
-      showColorModal(colors);
+      showInnModal(colors);
       break;  
     case 3:
       showMerchantModal();  

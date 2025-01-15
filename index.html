@@ -8,27 +8,31 @@
   <title>Small Dungeons and Tiny Dragons</title>
 </head>
 <body>
-  <div id="personal-info">
-    <div id="stats">
-      <span data-lvl class="tooltip-trigger" data-tooltip="Player level"></span>
-      <span data-xp class="delay tooltip-trigger" data-tooltip="Experience points"></span>
-      <span data-hp class="delay tooltip-trigger" data-tooltip="Hitpoints"></span>
-      <span data-gold class="delay tooltip-trigger" data-tooltip="Gold"></span>
-      <span data-attack class="tooltip-trigger" data-tooltip="Weapon damage" id="attack-display"></span>
-      <span data-defence class="tooltip-trigger" data-tooltip="Defence (armour + shield)"></span>
+    <div id="screen">
+        <div id="personal-info">
+            <div id="stats">
+                <span data-lvl class="tooltip-trigger" data-tooltip="Player level"></span>
+                <span data-xp class="delay tooltip-trigger" data-tooltip="Experience points"></span>
+                <span data-hp class="delay tooltip-trigger" data-tooltip="Hitpoints"></span>
+                <span data-gold class="delay tooltip-trigger" data-tooltip="Gold"></span>
+                <span data-attack class="tooltip-trigger" data-tooltip="Weapon damage" id="attack-display"></span>
+                <span data-defence class="tooltip-trigger" data-tooltip="Defence (armour + shield)"></span>
+            </div>
+            <div data-inventory id="inventory"></div>
+                <div id="gear-slots">
+                <div class="delay gear tooltip-trigger" data-tooltip="Active weapon" data-weapon-slot></div>
+                <div class="delay gear tooltip-trigger" data-text="SHLD" data-tooltip="Active shield" data-shield-slot></div>
+                <div class="delay gear tooltip-trigger" data-text="ARMR" data-tooltip="Active armour" data-armour-slot></div>
+            </div>
+        </div>
+
+        <div id="console">
+            <div data-text-element id="text-element"></div>
+            <div data-button-grid id="button-grid"></div>
+        </div> 
     </div>
-    <div data-inventory id="inventory"></div>
-    <div id="gear-slots">
-      <div class="delay gear tooltip-trigger" data-tooltip="Active weapon" data-weapon-slot></div>
-      <div class="delay gear tooltip-trigger" data-text="SHLD" data-tooltip="Active shield" data-shield-slot></div>
-      <div class="delay gear tooltip-trigger" data-text="ARMR" data-tooltip="Active armour" data-armour-slot></div>
-    </div>
-  </div>
-  <div id="console">
-    <div data-text-element id="text-element"></div>
-    <div data-button-grid id="button-grid"></div>
-  </div>    
-  <div data-modal class="modal"></div>
-  <div data-overlay id="overlay"></div>
+
+    <div data-modal class="modal"></div>
+    <div data-overlay id="overlay"></div>
 </body>
 </html>
